@@ -1,2 +1,10 @@
 # Proyecto-Baloncesto
-Trabajo colaborativo entre Antonio, Raúl y Juan, para crear una pagina web relacionada con el baloncesto y noticias sobre este.
+Trabajo colaborativo, para crear una pagina web relacionada con el baloncesto y noticias sobre este.
+
+## Herramientas
+Las herramientas que vamos a utilizar, por ahora,principalmente es Visual Estudio Code y Flation
+
+## Autores
+Antonio Valverde Lemos
+Raúl Marin Morales
+Juan Triguero 
