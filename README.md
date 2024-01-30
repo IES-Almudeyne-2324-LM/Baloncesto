@@ -7,4 +7,4 @@ Las herramientas que vamos a utilizar, por ahora,principalmente es Visual Estudi
 ## Autores
 <br>Antonio Valverde Lemos</br>
 <br>Raúl Marin Morales</br>
-<br>Juan Triguero </br>
+<br>Juan Triguero Espejo</br>
