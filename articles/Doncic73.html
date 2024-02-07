@@ -35,8 +35,16 @@
     </style>
     <div>
     <figure>
-        <img src="c:\Users\juant\Desktop\Proyecto Baloncesto LM\Proyecto-Baloncesto\images\doncic73.jpg" alt="NBA" width="500" height="370">
-        <figcaption>Luka Doncic celebrando su partido que quedará grabado en la historia</figcaption>
+        <picture>
+            <!--Aquí hemos metido el diseño webresponsive, para que tenga diferfente resolución dependiendo de donde se abre -->
+            <source media="(max-width: 700px)"
+                srcset="../images/luka73tiro.jpg">
+            <source media="(min-width: 800px)"
+                srcset="../images/doncic73.jpg">
+            <img src="../images/luka73tiro.jpg"
+                alt="Luka Doncic" width="500" height="370">
+            <figcaption>Luka Doncic tirando para conseguir 73 puntos</figcaption>
+        </picture>
     </figure>
     </div>
 
