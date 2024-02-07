@@ -54,7 +54,15 @@
 
         <!-- La proxima etiqueta sirve para añadir un hiperenlace en una imagen-->
         <a href="./articles/RRubioentrenandobarcelona.html">
-            <img src=".\images\RRentrenandobarcelona2.jpg" alt="Ricky Rubio entrenando con el Barcelona">
+            <figure>
+                <picture style="display: flex;justify-content: center;">
+
+                    <source media="(max-width: 799px)" srcset="./images/RickyRubioEntrenandoBarcelona_400px.jpg">
+                    <source media="(min-width: 800px)" srcset="./images/RRentrenandobarcelona2_800px.jpg">
+                    <img src="./images/RRentrenandobarcelona2_800px.jpg" alt="Ricky Rubio entrenando con el Barcelona">
+
+                </picture>
+            </figure>
         </a>
 
 
