@@ -21,27 +21,30 @@
     <header>
         <nav>
             <button style="background-color: rgb(242, 121, 21);text-align:end;">Secciones</button>
-            <ul>
+            <ul style="margin: 0; padding: 0;"> <!-- Elimina el margen y el relleno de la lista -->
                 <li><a class="button" href="#seccionEEUU">EEUU</a></li>
                 <li><a class="button" href="#seccionEspaña">España</a></li>
                 <li><a class="button" href="#seccionEuro">Europa</a></li>
             </ul>
             <div style="text-align: center;">
-                <h1><u>WeBall, noticias sobre el mundo del baloncesto</u></h1>
-
+                <h1 style="margin: 0;"> <!-- He tenido que poner este estilo para eliminar los 3 puntos que aparecian en las secciones -->
+                    <u>WeBall, noticias sobre el mundo del baloncesto</u>
+                </h1>
+    
                 <figure>
                     <picture style="display: flex;justify-content: center;">
-
+    
                         <source media="(max-width: 799px)" srcset="./images/OIG3_400px.jpg">
                         <source media="(min-width: 800px)" srcset="./images/OIG3_800px.jpg">
                         <img src="./images/OIG3_800px.jpg" alt="Logotipo de Weball">
                     </picture>
                 </figure>
-
-
+    
+    
             </div>
         </nav>
     </header>
+    
     <main>
         <div style="text-align: center;">
             <section class="EEUU">
