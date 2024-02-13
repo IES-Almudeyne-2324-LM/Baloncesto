@@ -34,3 +34,14 @@ footer {
 #colorfuente {
     color: rgb(0, 0, 0);
 }
+
+.button {
+    display: inline-block; /* Hace que el elemento se comporte como un bloque en línea */
+    vertical-align: middle; /* Alinea verticalmente el botón */
+    padding: 5px 20px; /* Espacio de relleno interno del botón */
+    background: #130000; /* Fondo del botón */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente dentro del botón */
+    text-decoration: none; /* Sin subrayado en el texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+}
