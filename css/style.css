@@ -73,6 +73,7 @@ footer {
     /* Transforma el texto a mayúsculas */
 }
 
+
 .fondoseccionEEUU {
     background-color: #ccc2c2cd;
 }
@@ -83,4 +84,12 @@ footer {
 
 .fondoseccionEuropa {
     background-color: #d3ccedcd;
+}
+
+.estilodelmain {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    border: #4a4949;
+    outline: #130000;
 }
