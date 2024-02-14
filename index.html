@@ -26,12 +26,10 @@
 
     <header>
         <nav>
-            <button style="background-color: rgb(242, 121, 21);text-align:end;">Secciones</button>
-            <ul style="margin: 0; padding: 0;"> <!-- Elimina el margen y el relleno de la lista -->
-                <li><a class="button" href="#seccionEEUU">EEUU</a></li>
-                <li><a class="button" href="#seccionEspaña">España</a></li>
-                <li><a class="button" href="#seccionEuro">Europa</a></li>
-            </ul>
+            <button><a class="button" href="#Inicio">Inicio</a></button>
+            <button><a class="button" href="#seccionEEUU">EEUU</a></button>
+            <button><a class="button" href="#seccionEspaña">España</a></button>
+            <button><a class="button" href="#seccionEuro">Europa</a></button>
             <div style="text-align: center;">
                 <h1 style="margin: 0;">
                     <!-- He tenido que poner este estilo para eliminar los 3 puntos que aparecian en las secciones -->
@@ -41,18 +39,19 @@
                     <br>
 
                 </h1>
+                <section id="Inicio">
+                    <figure>
+                        <picture style="display: flex;justify-content: center;">
 
-                <figure>
-                    <picture style="display: flex;justify-content: center;">
-
-                        <source media="(max-width: 799px)" srcset="./images/WEBALL_POSITIVO_400px.png">
-                        <source media="(min-width: 800px)" srcset="./images/WEBALL_POSITIVO_800px.png">
-                        <img src="./images/WEBALL_POSITIVO_800px.png" width="300" height="200" alt="Logotipo de Weball">
+                            <source media="(max-width: 799px)" srcset="./images/WEBALL_POSITIVO_400px.png">
+                            <source media="(min-width: 800px)" srcset="./images/WEBALL_POSITIVO_800px.png">
+                            <img src="./images/WEBALL_POSITIVO_800px.png" width="300" height="200"
+                                alt="Logotipo de Weball">
 
 
-                    </picture>
-                </figure>
-
+                        </picture>
+                    </figure>
+                </section>
 
             </div>
         </nav>
