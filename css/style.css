@@ -83,6 +83,7 @@ footer {
 
 .fondoseccionEEUU {
     background-color: #ccc2c2cd;
+    border-radius: 20px; /* Bordes redondeados */
 }
 
 .fondoseccionEspaña {
@@ -92,12 +93,13 @@ footer {
 
 .fondoseccionEuropa {
     background-color: #d3ccedcd;
+    border-radius: 20px; /* Bordes redondeados */
 }
 .estiloarticulosNBA{
+    background-color: #f0f0f0; /* Color de fondo */
     border-radius: 20px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interior */
     margin-bottom: 40px; /* Espacio entre artículos */
-    text-align: center;
     background-color: #d3ccedcd;
 }
 
@@ -111,10 +113,10 @@ footer {
   
 }
 .estiloarticulosEuropa{
+    background-color: #f0f0f0; /* Color de fondo */
     border-radius: 20px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interior */
     margin-bottom: 40px; /* Espacio entre artículos */
-    text-align: center;
     background-color: #abb6d782;
 }
 .estilodelmain {
