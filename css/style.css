@@ -85,7 +85,31 @@ footer {
 .fondoseccionEuropa {
     background-color: #d3ccedcd;
 }
+.estiloarticulosNBA{
+    width: 95%;
+    /* Ancho deseado del footer */
+    margin: 0 auto;
+    /* Margen automático a los lados para centrar */
+    text-align: center;
+    background-color: #d3ccedcd;
+}
 
+.estiloarticulosEspaña{
+    width: 95%;
+    /* Ancho deseado del footer */
+    margin: 0 auto;
+    /* Margen automático a los lados para centrar */
+    text-align: center;
+    background-color: #f2f27282;
+}
+.estiloarticulosEuropa{
+    width: 95%;
+    /* Ancho deseado del footer */
+    margin: 0 auto;
+    /* Margen automático a los lados para centrar */
+    text-align: center;
+    background-color: #abb6d782;
+}
 .estilodelmain {
     max-width: 900px;
     margin: auto;
