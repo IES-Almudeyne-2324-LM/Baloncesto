@@ -45,3 +45,11 @@ footer {
     text-decoration: none; /* Sin subrayado en el texto */
     text-transform: uppercase; /* Transforma el texto a mayúsculas */
 }
+
+.estilodelmain {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    border: #4a4949;
+    outline: #130000;
+}
