@@ -3,36 +3,13 @@ header {
     text-align: center;
 }
 
-table {
-    border-collapse: collapse;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-th,
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
+table { border-collapse: collapse;width: 75%; margin-left: auto;margin-right: auto;}
+th, td {border: 1px solid #ddd; padding: 8px; text-align: left;}
+th {background-color: #f2f2f2;}
 
 footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px; 
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-footer {
-    width: 80%;
-    /* Ancho deseado del footer */
-    margin: 0 auto;
-    /* Margen automático a los lados para centrar */
+    width: 80%; /* Ancho deseado del footer */
+    margin: 0 auto; /* Margen automático a los lados para centrar */
     text-align: center;
 }
 
@@ -45,12 +22,9 @@ footer {
 
 .fondo {
     background-image: url("../images/fondoweb.jpg");
-    background-size: cover;
-    /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: center;
-    /* Centra la imagen dentro del contenedor */
-    background-attachment: fixed;
-    /* Hace que la imagen de fondo permanezca fija en su posición */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+    background-attachment: fixed; /* Hace que la imagen de fondo permanezca fija en su posición */
 }
 
 /*.España {
@@ -62,67 +36,13 @@ footer {
 }
 
 .button {
-    display: inline-block;
-    /* Hace que el elemento se comporte como un bloque en línea */
-    vertical-align: middle;
-    /* Alinea verticalmente el botón */
-    padding: 5px 20px;
-    /* Espacio de relleno interno del botón */
-    background: #130000;
-    /* Fondo del botón */
-    color: #fffffffb;
-    /* Color del texto */
-    text-align: center;
-    /* Centra el texto horizontalmente dentro del botón */
-    text-decoration: none;
-    /* Sin subrayado en el texto */
-    text-transform: uppercase;
-    /* Transforma el texto a mayúsculas */
+    display: inline-block; /* Hace que el elemento se comporte como un bloque en línea */
+    vertical-align: middle; /* Alinea verticalmente el botón */
+    padding: 5px 20px; /* Espacio de relleno interno del botón */
+    background: #130000; /* Fondo del botón */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente dentro del botón */
+    text-decoration: none; /* Sin subrayado en el texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
 }
-
-
-.fondoseccionEEUU {
-    background-color: #ccc2c2cd;
-    border-radius: 20px; /* Bordes redondeados */
-}
-
-.fondoseccionEspaña {
-    background-color: #f72e2ecd;
-    border-radius: 20px; /* Bordes redondeados */
-}
-
-.fondoseccionEuropa {
-    background-color: #d3ccedcd;
-    border-radius: 20px; /* Bordes redondeados */
-}
-.estiloarticulosNBA{
-    background-color: #f0f0f0; /* Color de fondo */
-    border-radius: 20px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interior */
-    margin-bottom: 40px; /* Espacio entre artículos */
-    background-color: #d3ccedcd;
-}
-
-.estiloarticulosEspaña{
-    background-color: #f0f0f0; /* Color de fondo */
-    border-radius: 20px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interior */
-    margin-bottom: 40px; /* Espacio entre artículos */
-    text-align: center;
-  
-  
-}
-.estiloarticulosEuropa{
-    background-color: #f0f0f0; /* Color de fondo */
-    border-radius: 20px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interior */
-    margin-bottom: 40px; /* Espacio entre artículos */
-    background-color: #abb6d782;
-}
-.estilodelmain {
-    max-width: 900px;
-    margin: auto;
-    text-align: center;
-    border: #4a4949;
-    outline: #130000;
-}
+z
