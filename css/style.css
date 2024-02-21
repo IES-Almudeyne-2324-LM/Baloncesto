@@ -130,3 +130,7 @@ footer {
 .formulario{
     text-align: center;
 }
+.estiloformulario{
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+}

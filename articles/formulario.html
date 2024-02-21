@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
+
 <body class="fondo">
     <header>
         <nav>
@@ -24,16 +25,25 @@
     <br>
     <br>
     <main class="formulario">
-        <article>
+        <section class= "estiloformulario">
             <h1>Registro para Recomendación de noticias</h1>
-            <form action="mailto:tucorreo@example.com" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            
-                <!-- Otros controles interactivos aquí -->
-            
-                <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí"></textarea>
-            
+            <article>
+                <form action="mailto:tucorreo@example.com" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="Apellidos">Apellidos:</label>
+                    <input type="text" id="Apellidos" name="Apellidos" required>
+                </form>
+            </article>
+            <br><br>
+            <!-- Otros controles interactivos aquí -->
+            <article>
+                <label for="Comentario">Sugurenicas para cambios o nuevas noticias:</label>
+                <textarea id="comentarios" name="comentarios" rows="1" cols="75"
+                    placeholder="Escribe tus comentarios aquí"></textarea>
+            </article>
+            <br> <br>
+            <article>
                 <label for="opciones">Selecciona región donde quieras noticias:</label>
                 <select id="opciones" name="opciones">
                     <option value="opcion1">España</option>
@@ -43,19 +53,18 @@
                     <option value="opcion2">Asia</option>
                     <!-- Agrega más opciones -->
                 </select>
-            
-                <fieldset>
-                    <legend>Preferencias de contacto</legend>
-                    <input type="checkbox" id="email" name="preferencias" value="email">
-                    <label for="email">Recibir correos electrónicos</label>
-                    <input type="checkbox" id="sms" name="preferencias" value="sms">
-                    <label for="sms">Recibir SMS</label>
-                </fieldset>
-            
-                <button type="reset">Restablecer</button>
-                <button type="submit">Enviar</button>
-            </form>
-        </article>
+            </article>
+            <fieldset>
+                <legend>Preferencias de contacto</legend>
+                <input type="checkbox" id="email" name="preferencias" value="email">
+                <label for="email">Recibir correos electrónicos</label>
+                <input type="checkbox" id="sms" name="preferencias" value="sms">
+                <label for="sms">Recibir SMS</label>
+            </fieldset>
+
+            <input type="reset" value="Restablecer">
+            <button type="submit">Enviar</button>
+        </section>
     </main>
 </body>
 
