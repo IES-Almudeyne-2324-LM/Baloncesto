@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="googlebot" content="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Noticias sobre baloncesto, noticias diarias, acb, nba, euroliga, real Madrid, Barcelona">
+    <meta name="keywords"
+        content="Baloncesto, euroliga, acb, nba, real madrid, barcelona, luka doncic, lebron james, stephen curry, triple, mate, canasta, aro">
+    <title>WeBall</title>
+    <link rel="icon" href="../Icons/iconobaloncesto.png" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body class="fondo">
+    <header>
+        <nav>
+            <a class="button" href="../index.html">Inicio</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main class="formulario">
+        <section class="estiloformulario">
+            <h1>Registro para Recomendación de noticias</h1>
+            <article>
+                <form action="mailto:tucorreo@example.com" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="Apellidos">Apellidos:</label>
+                    <input type="text" id="Apellidos" name="Apellidos" required>
+                </form>
+            </article>
+            <br><br>
+            <!-- Otros controles interactivos aquí -->
+            <article>
+                <label for="Comentario">Sugurenicas para cambios o nuevas noticias:</label>
+                <textarea id="comentarios" name="comentarios" rows="1" cols="75"
+                    placeholder="Escribe tus comentarios aquí"></textarea>
+            </article>
+            <br> <br>
+            <article>
+                <label for="opciones">Selecciona región donde quieras noticias:</label>
+                <select id="opciones" name="opciones">
+                    <option value="opcion1">España</option>
+                    <option value="opcion2">Francia</option>
+                    <option value="opcion2">EEUU</option>
+                    <option value="opcion2">Europa</option>
+                    <option value="opcion2">Asia</option>
+                    <!-- Agrega más opciones -->
+                </select>
+            </article>
+            <fieldset>
+                <legend>Preferencias de contacto</legend>
+                <input type="checkbox" id="email" name="preferencias" value="email">
+                <label for="email">Recibir correos electrónicos</label>
+                <input type="checkbox" id="sms" name="preferencias" value="sms">
+                <label for="sms">Recibir SMS</label>
+            </fieldset>
+
+            <input type="reset" value="Restablecer">
+            <button type="submit">Enviar</button>
+        </section>
+        <a href="../index.html#miller">
+            <img src="../Icons/iconovolverhaciaatras2.png" alt="Volver" width="70"
+                style="display: block; margin: auto;">
+        </a>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer class="footer">
+        <div>
+            Alumno1: Juan Triguero Espejo<br>
+            Alumno2: Antonio Valverde Lemos<br>
+            Alumno3: Raúl Marín Morales<br>
+            Asignatura: Lenguaje de Marcas<br>
+            Curso: 2023-2024
+        </div>
+    </footer>
+</body>
+
+</html>

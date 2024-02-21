@@ -45,4 +45,62 @@ footer {
     text-decoration: none; /* Sin subrayado en el texto */
     text-transform: uppercase; /* Transforma el texto a mayúsculas */
 }
+<<<<<<< HEAD
 z
+=======
+
+
+.fondoseccionEEUU {
+    background-color: #ccc2c2cd;
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+.fondoseccionEspaña {
+    background-color: #f72e2ecd;
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+.fondoseccionEuropa {
+    background-color: #d3ccedcd;
+    border-radius: 20px; /* Bordes redondeados */
+}
+.estiloarticulosNBA{
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interior */
+    margin-bottom: 40px; /* Espacio entre artículos */
+    background-color: #d3ccedcd;
+}
+
+.estiloarticulosEspaña{
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interior */
+    margin-bottom: 40px; /* Espacio entre artículos */
+    text-align: center;
+  
+  
+}
+.estiloarticulosEuropa{
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interior */
+    margin-bottom: 40px; /* Espacio entre artículos */
+    background-color: #abb6d782;
+}
+.estilodelmain {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    border: #4a4949;
+    outline: #130000;
+}
+
+.formulario{
+    text-align: center;
+}
+.estiloformulario{
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 20px; /* Bordes redondeados */
+}
+>>>>>>> 7e61f97f7956d2a21a8b3d9b789a5fb9c8f668ca
