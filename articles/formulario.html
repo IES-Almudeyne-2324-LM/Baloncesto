@@ -51,9 +51,10 @@
                     <option value="opcion2">EEUU</option>
                     <option value="opcion2">Europa</option>
                     <option value="opcion2">Asia</option>
-                   
+
                 </select>
             </article>
+            <br>
             <article>
                 <label for="opciones">Elige tu jugador favorito de la NBA:</label>
                 <select id="opciones" name="opciones">
@@ -64,11 +65,14 @@
                     <option value="opcion2">Trae Young</option>
                 </select>
             </article>
+            <br>
             <article>
-                <label for="Comentario">Si tu jugador favorito no se encuentra en la anterior opción, escribe su nombre:</label>
+                <label for="Comentario">Si tu jugador favorito no se encuentra en la anterior opción, escribe su
+                    nombre:</label>
                 <textarea id="comentarios" name="comentarios" rows="1" cols="20"
                     placeholder="Escribe el nombre de tu jugador favorito"></textarea>
             </article>
+            <br>
             <fieldset>
                 <legend>Preferencias de contacto</legend>
                 <input type="checkbox" id="email" name="preferencias" value="email">
@@ -76,6 +80,20 @@
                 <input type="checkbox" id="sms" name="preferencias" value="sms">
                 <label for="sms">Recibir SMS</label>
             </fieldset>
+            <br>
+            <article>
+                <legend>Preferencias Musicales</legend>
+
+                <label>Indique el interés que tiene usted en las siguientes secciones:</label> <br>
+                <label for="flam"><i><strong>Noticias de EEUU</strong></i></label><br>
+                <input type="range" name="flam" id="flam" min="0" max="10" step="1"><br>
+                <label for="ra"><i><strong>Noticias de España</strong></i></label><br>
+                <input type="range" name="ra" id="ra" min="0" max="10" step="1"><br>
+                <label for="ro"><i><strong>Noticias de Europa</strong></i></label><br>
+                <input type="range" name="ro" id="ro" min="0" max="10" step="1"><br>
+            </article>
+            
+            <br>
 
             <input type="reset" value="Restablecer">
             <button type="submit">Enviar</button>
