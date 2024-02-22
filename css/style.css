@@ -67,3 +67,25 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+.formulario {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #c4a9a9;
+    border-radius: 10px;
+    background-color: rgba(142, 135, 135, 0.5);
+}
+
+
+
+.botonesformulario input[type="reset"],
+.botonesformulario button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;¡
+}
