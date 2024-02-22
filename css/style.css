@@ -30,12 +30,12 @@ footer {
 }
 
 .fondoseccionEspaña {
-    background-color: #a4a0a0;
     border-radius: 20px; 
+    background-color: rgba(191, 47, 47, 0.5);
 }
 
 .fondoseccionEuropa {
-    background-color: #716e6e;
+    background-color: rgba(154, 162, 226, 0.5);
     border-radius: 20px; 
 }
 
