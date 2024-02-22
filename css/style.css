@@ -89,3 +89,12 @@ footer {
     border: none;
     border-radius: 5px;¡
 }
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('https://fonts.google.com/specimen/Exo+2') format('truetype');
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
